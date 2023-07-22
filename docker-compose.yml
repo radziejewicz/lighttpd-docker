@@ -6,7 +6,7 @@ services:
     restart: "unless-stopped"
     ports:
       - "8001:80"
+      - "8004:443"
     volumes:
       - ./htdocs:/var/www/localhost/htdocs/
-      #- <config-directory>:/etc/lighttpd
 
